@@ -6,7 +6,7 @@ import FreelanceImg from '../assets/freelance.png'
 
 export const projects = [
   {
-    title: 'SaaSFlow',
+    title: 'AI Career Website',
     subtitle: 'AI Career Platform',
     description: 'AI Resume Builder, Interview Copilot, secure workflows, and subscription management in one SaaS platform.',
     tags: ['Next.js', 'Node.js', 'PostgreSQL', 'Stripe'],
