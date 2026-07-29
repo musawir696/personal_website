@@ -1,4 +1,10 @@
-﻿export const projects = [
+import careerImg from '../assets/career.png'
+import dentsuitImg from '../assets/dentsuit.png'
+import golfImg from '../assets/golf.png'
+import streamwiseImg from '../assets/streamwise.png'
+import Freelance from '../assets/freelance.png'
+
+export const projects = [
   {
     title: 'SaaSFlow',
     subtitle: 'AI Career Platform',
@@ -6,6 +12,7 @@
     tags: ['Next.js', 'Node.js', 'PostgreSQL', 'Stripe'],
     demo: 'https://aicareer.cloud/',
     mark: 'AI',
+    image: careerImg,
     visual: 'from-blue-100 to-indigo-50',
     badge: 'bg-blue-600 shadow-blue-500/25',
     detail: 'text-blue-600',
@@ -18,6 +25,7 @@
     github: 'https://github.com/musawir696/Teetimepro_website',
     demo: 'https://newteetimewesbsite.netlify.app/auth',
     mark: 'TT',
+    image: golfImg,
     visual: 'from-emerald-100 to-green-50',
     badge: 'bg-green-700 shadow-green-500/25',
     detail: 'text-green-700',
@@ -29,6 +37,7 @@
     tags: ['React.js', 'Node.js', 'MongoDB'],
     demo: 'https://techservicesrent.netlify.app/',
     mark: 'MS',
+    image: Freelance,
     visual: 'from-orange-100 to-amber-50',
     badge: 'bg-orange-700 shadow-orange-500/25',
     detail: 'text-orange-700',
@@ -41,6 +50,7 @@
     github: 'https://github.com/musawir696/Dentsuit',
     demo: 'https://dentsuit.netlify.app/',
     mark: 'DS',
+    image: dentsuitImg,
     visual: 'from-violet-100 to-purple-50',
     badge: 'bg-violet-600 shadow-violet-500/25',
     detail: 'text-violet-600',
@@ -53,6 +63,7 @@
     github: 'https://github.com/musawir696/StreamwiseAdmin',
     demo: 'https://streamwiseadmin.netlify.app/',
     mark: 'SA',
+    image: streamwiseImg,
     visual: 'from-teal-100 to-cyan-50',
     badge: 'bg-teal-700 shadow-teal-500/25',
     detail: 'text-teal-700',

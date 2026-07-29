@@ -31,16 +31,30 @@ export default function Projects() {
             className="overflow-hidden rounded-[22px] border border-white bg-white/90 shadow-lg shadow-slate-500/5 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-500/15"
             key={project.title}
           >
-            <div className={`relative flex h-44 items-center justify-center overflow-hidden bg-linear-to-br ${project.visual}`}>
-              <div className={`grid h-24 w-40 rotate-[-8deg] place-items-center rounded-[20px] text-3xl font-extrabold text-white shadow-2xl ${project.badge}`}>
-                {project.mark}
-              </div>
-              <i className="absolute top-10 right-6 h-2 w-18 rounded-full bg-white/70">
-              </i>
-              <i className="absolute top-16 right-6 h-2 w-11 rounded-full bg-white/70">
-              </i>
-              <i className="absolute bottom-8 left-7 h-2 w-9 rounded-full bg-white/70">
-              </i>
+            <div
+              className={`relative flex h-48 items-center justify-center overflow-hidden bg-linear-to-br ${project.visual}`}
+            >
+              {project.image ? (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-full w-full object-cover object-top transition duration-300 hover:scale-105"
+                />
+              ) : (
+                <>
+                  <div
+                    className={`grid h-24 w-40 rotate-[-8deg] place-items-center rounded-[20px] text-3xl font-extrabold text-white shadow-2xl ${project.badge}`}
+                  >
+                    {project.mark}
+                  </div>
+                  <i className="absolute top-10 right-6 h-2 w-18 rounded-full bg-white/70">
+                  </i>
+                  <i className="absolute top-16 right-6 h-2 w-11 rounded-full bg-white/70">
+                  </i>
+                  <i className="absolute bottom-8 left-7 h-2 w-9 rounded-full bg-white/70">
+                  </i>
+                </>
+              )}
             </div>
 
             <div className="p-6">
