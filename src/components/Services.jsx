@@ -6,19 +6,18 @@ export default function Services() {
       id="services"
       className="bg-linear-to-br from-blue-50 to-violet-50 px-6 py-20 sm:px-10 lg:px-[max(3rem,calc((100vw-1120px)/2))] lg:py-28"
     >
-      <header className="mb-12 grid gap-6 lg:grid-cols-[1fr_340px] lg:items-end">
-        <div>
-          <p className="mb-6 text-[11px] font-extrabold tracking-[0.1em] text-blue-600">
-            02 — SERVICES
-          </p>
-          <h2 className="text-4xl leading-none font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">
-            What I can
-            <span className="bg-linear-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
-              build for you.
-            </span>
-          </h2>
-        </div>
-        <p className="text-[15px] leading-relaxed text-slate-500">
+      <header className="mx-auto mb-14 max-w-3xl text-center">
+        <p className="mb-4 text-xl font-extrabold tracking-[0.15em] uppercase text-blue-600 sm:text-2xl">
+          SERVICES
+        </p>
+        <h2 className="text-4xl leading-tight font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">
+          What I can
+          <br />
+          <span className="bg-linear-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
+            build for you.
+          </span>
+        </h2>
+        <p className="mt-5 text-[15px] leading-relaxed text-slate-500">
           I combine strategy, design thinking, and engineering to take your idea from concept to launch.
         </p>
       </header>
@@ -27,12 +26,9 @@ export default function Services() {
         {services.map((service) => (
           <article
             className="flex min-h-80 flex-col rounded-[20px] border border-white bg-white/90 p-6 shadow-lg shadow-slate-500/5 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-500/10"
-            key={service.number}
+            key={service.title}
           >
-            <div className="flex items-center justify-between font-mono text-[11px] text-slate-500">
-              <span>
-                {service.number}
-              </span>
+            <div className="flex items-center justify-end font-mono text-[11px] text-slate-500">
               <b className="grid h-11 w-11 place-items-center rounded-xl bg-blue-50 text-xl font-medium text-blue-600">
                 {service.icon}
               </b>

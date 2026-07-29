@@ -7,23 +7,21 @@ export default function Projects() {
       id="projects"
       className="bg-linear-to-br from-blue-50 to-violet-50 px-6 py-20 sm:px-10 lg:px-[max(2rem,calc((100vw-1320px)/2))] lg:py-28"
     >
-      <div className="mb-11 grid gap-6 lg:grid-cols-[1fr_355px] lg:items-end">
-        <div>
-          <p className="mb-6 text-[11px] font-extrabold tracking-[0.1em] text-violet-600">
-            03 — SELECTED WORK
-          </p>
-          <h2 className="text-4xl leading-none font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">
-            Built for real
-            <br />
-            <span className="bg-linear-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
-              world impact.
-            </span>
-          </h2>
-        </div>
-        <p className="text-[15px] leading-relaxed text-slate-500">
+      <header className="mx-auto mb-14 max-w-3xl text-center">
+        <p className="mb-4 text-xl font-extrabold tracking-[0.15em] uppercase text-violet-600 sm:text-2xl">
+          PROJECTS
+        </p>
+        <h2 className="text-4xl leading-tight font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">
+          Built for real
+          <br />
+          <span className="bg-linear-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
+            world impact.
+          </span>
+        </h2>
+        <p className="mt-5 text-[15px] leading-relaxed text-slate-500">
           From SaaS products to booking platforms, these projects combine thoughtful experiences with reliable engineering.
         </p>
-      </div>
+      </header>
 
       <div className="grid gap-5 lg:grid-cols-2">
         {projects.map((project) => (
@@ -91,7 +89,7 @@ export default function Projects() {
                 ) : (
                   <span className="inline-flex items-center gap-2 text-sm font-extrabold text-slate-400">
                     <GitHubIcon />
-                    GitHub soon
+                    GitHub
                   </span>
                 )}
                 <a

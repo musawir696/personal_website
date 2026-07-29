@@ -2,7 +2,7 @@ import careerImg from '../assets/career.png'
 import dentsuitImg from '../assets/dentsuit.png'
 import golfImg from '../assets/golf.png'
 import streamwiseImg from '../assets/streamwise.png'
-import Freelance from '../assets/freelance.png'
+import FreelanceImg from '../assets/freelance.png'
 
 export const projects = [
   {
@@ -35,9 +35,10 @@ export const projects = [
     subtitle: 'Commerce, Rentals & Training',
     description: 'A multi-service marketplace with authentication, RBAC, payments, CRUD operations, and scalable API integration.',
     tags: ['React.js', 'Node.js', 'MongoDB'],
+    github: 'https://github.com/musawir696/Freelance_project',
     demo: 'https://techservicesrent.netlify.app/',
     mark: 'MS',
-    image: Freelance,
+    image: FreelanceImg,
     visual: 'from-orange-100 to-amber-50',
     badge: 'bg-orange-700 shadow-orange-500/25',
     detail: 'text-orange-700',
