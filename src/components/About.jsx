@@ -1,7 +1,7 @@
 export default function About() {
   const highlights = [
     {
-      label: '2.5+',
+      label: '2+',
       title: 'Years of Experience',
       description: 'Hands-on work building production-ready web products with a strong focus on execution and quality.',
     },
