@@ -4,22 +4,21 @@ import teamImg from '../assets/service_team.jpg'
 
 export const services = [
   {
-    title: 'Full-stack development',
-    text: 'End-to-end web applications that are fast, reliable, and built around your business goals.',
-    tags: ['React', 'Node.js', 'APIs'],
+    title: 'Full-Stack Web Apps',
+    text: 'End-to-end web applications with React/Next.js frontends, Node.js APIs, and production-ready databases. From architecture to deployment — I own the whole stack.',
+    tags: ['React', 'Next.js', 'Node.js', 'TypeScript', 'PostgreSQL'],
     image: fullstackImg,
   },
   {
-    title: 'Product websites',
-    text: 'Clear, high-converting websites that make your product feel credible from the first click.',
-    tags: ['UI/UX', 'Responsive', 'SEO-ready'],
+    title: 'Landing Pages & SaaS Sites',
+    text: 'High-converting landing pages and SaaS marketing sites built to attract users and grow revenue. Fast, SEO-optimised, responsive, and designed to build trust.',
+    tags: ['Next.js', 'Tailwind CSS', 'SEO', 'Responsive', 'Performance'],
     image: productImg,
   },
   {
-    title: 'Dedicated team',
-    text: 'The right specialists join the project when needed—so every challenge gets its best solution.',
-    tags: ['Design', 'Mobile', 'Cloud'],
+    title: 'Freelance & Contract Work',
+    text: 'Available for freelance projects, short-term contracts, and part-time team collaborations. Clear communication, milestone-based delivery, and post-launch support.',
+    tags: ['Freelance', 'Remote', 'Agile', 'Full-Stack', 'Contracts'],
     image: teamImg,
   },
 ]
-

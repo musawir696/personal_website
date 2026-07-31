@@ -35,13 +35,15 @@ export default function Navbar() {
         {/* Desktop Links */}
         <div className="hidden md:flex md:items-center md:gap-6 lg:gap-7">
           <a className="text-sm font-semibold text-slate-600 hover:text-blue-600 transition-colors" href="#about">About</a>
+          <a className="text-sm font-semibold text-slate-600 hover:text-blue-600 transition-colors" href="#skills">Skills</a>
+         
           <a className="text-sm font-semibold text-slate-600 hover:text-blue-600 transition-colors" href="#services">Services</a>
           <a className="text-sm font-semibold text-slate-600 hover:text-blue-600 transition-colors" href="#projects">Projects</a>
           <a
             className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-extrabold text-white shadow-lg shadow-blue-500/25 transition hover:scale-105 hover:bg-blue-700"
             href="#contact"
           >
-            Let&apos;s talk
+            Hire me
           </a>
         </div>
 
@@ -81,6 +83,20 @@ export default function Navbar() {
           </a>
           <a
             className="rounded-xl px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+            href="#skills"
+            onClick={closeMenu}
+          >
+            Skills
+          </a>
+          <a
+            className="rounded-xl px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+            href="#experience"
+            onClick={closeMenu}
+          >
+            Experience
+          </a>
+          <a
+            className="rounded-xl px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
             href="#services"
             onClick={closeMenu}
           >
@@ -99,7 +115,7 @@ export default function Navbar() {
               href="#contact"
               onClick={closeMenu}
             >
-              Let&apos;s talk
+              Hire me
             </a>
           </div>
         </div>

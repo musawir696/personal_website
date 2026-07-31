@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@keyframes skill-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes float-card {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotateY(-2deg) rotateX(1deg);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0) rotateY(2deg) rotateX(0deg);
+  }
+}
+
+.animate-skill-marquee {
+  animation: skill-marquee 22s linear infinite;
+}
+
+.hero-card-3d {
+  perspective: 1400px;
+}
+
+.hero-card-inner {
+  animation: float-card 8s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
