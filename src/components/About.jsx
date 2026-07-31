@@ -20,10 +20,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-white px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28"
+      className="bg-slate-50 px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28"
     >
       <div className="mx-auto mb-10 sm:mb-14 max-w-3xl text-center">
-        <p className="mb-3 sm:mb-4 text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-blue-600">
+        <p className="mb-3 sm:mb-4 text-lg font-extrabold tracking-[0.15em] uppercase text-blue-600">
           ABOUT ME
         </p>
         <h2 className="text-3xl leading-tight font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">
@@ -41,12 +41,12 @@ export default function About() {
           <p className="mt-4 sm:mt-5">
             I care deeply about performance, clean architecture, and user experience. Whether you need an MVP, a modern web presence, or a dependable developer to support your team, I focus on shipping practical solutions with clear communication and thoughtful execution.
           </p>
-          <a
-            className="mt-6 sm:mt-7 inline-flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-sm font-extrabold text-white shadow-md shadow-blue-500/25 hover:bg-blue-700 transition-colors"
+            <a
+            className="mt-6 sm:mt-7 inline-flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-3 text-sm font-extrabold text-white shadow-md shadow-blue-500/25 hover:bg-blue-700 transition-colors"
             href="#contact"
           >
             Let&apos;s work together →
-          </a>
+            </a>
         </div>
 
         <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1">

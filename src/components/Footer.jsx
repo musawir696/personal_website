@@ -37,12 +37,12 @@ export default function Footer() {
       <div className="mx-auto max-w-3xl text-center">
 
         {/* Label */}
-        <p className="mb-2 sm:mb-3 text-base sm:text-lg font-extrabold tracking-[0.15em] uppercase text-blue-400">
+        <p className="mb-3 sm:mb-4 text-lg font-extrabold tracking-[0.15em] uppercase text-blue-400">
           GET IN TOUCH
         </p>
 
         {/* Headline */}
-        <h2 className="text-2xl leading-tight font-extrabold tracking-tighter text-white sm:text-4xl lg:text-5xl">
+        <h2 className="text-3xl leading-tight font-extrabold tracking-tighter text-white sm:text-5xl lg:text-6xl">
           Let&apos;s build
           <br />
           <span className="bg-linear-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">

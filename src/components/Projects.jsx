@@ -8,7 +8,7 @@ export default function Projects() {
       className="bg-linear-to-br from-blue-50 to-violet-50 px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28"
     >
       <header className="mx-auto mb-10 sm:mb-14 max-w-3xl text-center">
-        <p className="mb-3 sm:mb-4 text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-violet-600">
+        <p className="mb-3 sm:mb-4 text-lg font-extrabold tracking-[0.15em] uppercase text-blue-600">
           PROJECTS
         </p>
         <h2 className="text-3xl leading-tight font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">

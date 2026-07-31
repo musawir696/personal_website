@@ -33,7 +33,7 @@ export default function Skills() {
       className="bg-gradient-to-br from-slate-50 via-sky-50 to-blue-50 px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28"
     >
       <div className="mx-auto mb-10 max-w-3xl text-center">
-        <p className="mb-3 text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-blue-600">
+        <p className="mb-3 sm:mb-4 text-lg font-extrabold tracking-[0.15em] uppercase text-blue-600">
           SKILLS
         </p>
         <h2 className="text-3xl font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">

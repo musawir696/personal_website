@@ -8,7 +8,7 @@ export default function Services() {
     >
       {/* Header */}
       <header className="mx-auto mb-10 sm:mb-14 max-w-3xl text-center">
-        <p className="mb-3 sm:mb-4 text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-blue-600">
+        <p className="mb-3 sm:mb-4 text-lg font-extrabold tracking-[0.15em] uppercase text-blue-600">
           SERVICES
         </p>
         <h2 className="text-3xl leading-tight font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">

@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative mx-0 overflow-hidden bg-[#d6edfd] px-3 py-12 sm:mx-3 sm:px-6 sm:py-20 lg:mx-4 lg:px-8 lg:py-24 rounded-none sm:rounded-[28px]"
+      className="relative mx-0 overflow-hidden bg-white px-3 py-12 sm:mx-3 sm:px-6 sm:py-20 lg:mx-4 lg:px-8 lg:py-24 rounded-none sm:rounded-[28px]"
     >
       <div className="absolute inset-0 bg-linear-to-b from-white/45 via-transparent to-white/20 pointer-events-none" />
       <div className="absolute -top-20 right-0 h-64 w-64 sm:h-80 sm:w-80 rounded-full bg-blue-200/60 blur-3xl pointer-events-none" />
@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="w-full text-center lg:text-left">
 
           {/* Availability badge */}
-          <p className="mb-3 sm:mb-4 text-[10px] font-extrabold tracking-widest text-green-800">
+          <p className="mb-3 sm:mb-4 text-xs font-extrabold tracking-[0.15em] text-green-600 uppercase">
             <span className="mr-2 inline-block h-2 w-2 rounded-full bg-green-500" />
             AVAILABLE FOR FULL-TIME ROLES &amp; FREELANCE
           </p>
@@ -32,20 +32,20 @@ export default function Hero() {
           
 
           {/* Subtitle — clear identity statement */}
-          <p className="mx-auto mt-4 max-w-lg text-xs leading-relaxed text-slate-600 sm:mt-6 sm:text-sm lg:mx-0">
+          <p className="mx-auto mt-4 max-w-lg text-sm leading-relaxed text-slate-600 sm:mt-6 lg:mx-0">
             I&apos;m <strong className="text-slate-800">Abdul Musawir</strong> — a full-stack developer with 2.5+ years of experience building reliable web products for startups, businesses, and growing teams.
           </p>
 
           {/* CTAs */}
           <div className="mt-4 flex flex-col items-center justify-center gap-2 sm:mt-6 sm:flex-row sm:items-center sm:gap-3 lg:justify-start">
             <a
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-2.5 text-xs font-extrabold text-white shadow-lg shadow-blue-500/30 transition hover:scale-105 hover:bg-blue-700 sm:px-6 sm:py-3 sm:text-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-5 py-3 text-sm font-extrabold text-white shadow-lg shadow-blue-500/30 transition hover:scale-105 hover:bg-blue-700"
               href="#contact"
             >
               Let&apos;s work together
             </a>
             <a
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-xs font-extrabold text-slate-700 transition hover:border-blue-400 hover:text-blue-600 shadow-sm sm:py-3 sm:text-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-3 text-sm font-extrabold text-slate-700 transition hover:border-blue-400 hover:text-blue-600 shadow-sm"
               href="#projects"
             >
               Explore my work →
