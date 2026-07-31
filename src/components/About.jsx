@@ -34,7 +34,7 @@ export default function About() {
       </div>
 
       <div className="grid gap-8 sm:gap-9 lg:grid-cols-[1.1fr_.9fr] lg:gap-20">
-        <div className="px-1 text-base leading-relaxed text-slate-600 sm:px-2 lg:px-4">
+        <div className="rounded-2xl border border-slate-100 bg-slate-50 px-6 sm:px-8 lg:px-10 py-5 sm:py-6 text-base leading-relaxed text-slate-600">
           <p>
             I&apos;m a full-stack developer with 2.5+ years of experience building SaaS platforms, client-facing web applications, and internal dashboards from the ground up. I combine strong frontend execution with reliable backend architecture to create products that feel polished, fast, and dependable.
           </p>
