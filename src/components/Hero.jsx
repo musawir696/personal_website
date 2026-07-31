@@ -4,13 +4,13 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative mx-0 overflow-hidden bg-white px-3 py-12 sm:mx-3 sm:px-6 sm:py-20 lg:mx-4 lg:px-8 lg:py-24 rounded-none sm:rounded-[28px]"
+      className="relative mx-0 overflow-hidden bg-white px-6 py-12 sm:mx-0 sm:px-8 sm:py-20 lg:mx-0 lg:px-10 lg:py-24 rounded-none sm:rounded-[28px]"
     >
       <div className="absolute inset-0 bg-linear-to-b from-white/45 via-transparent to-white/20 pointer-events-none" />
       <div className="absolute -top-20 right-0 h-64 w-64 sm:h-80 sm:w-80 rounded-full bg-blue-200/60 blur-3xl pointer-events-none" />
       <div className="absolute -bottom-20 left-10 h-56 w-56 sm:h-72 sm:w-72 rounded-full bg-violet-200/70 blur-3xl pointer-events-none" />
 
-      <div className="relative z-10 mx-auto grid w-full max-w-5xl gap-6 sm:gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+      <div className="relative z-10 mx-auto grid w-full gap-6 sm:gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
         <div className="w-full text-center lg:text-left">
 
           {/* Availability badge */}
@@ -66,14 +66,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute right-6 bottom-7 left-6 z-10 hidden justify-between text-[10px] font-medium tracking-wider text-slate-500 lg:flex">
-        <span>Scroll to discover</span>
-        <span>
-          FULL-STACK DEVELOPER
-          <b className="px-1 text-blue-600">/</b>
-          PAKISTAN · REMOTE
-        </span>
-      </div>
+      
     </section>
   )
 }
