@@ -33,7 +33,7 @@ export default function Hero() {
 
           {/* Subtitle — clear identity statement */}
           <p className="mx-auto mt-4 max-w-lg text-sm leading-relaxed text-slate-600 sm:mt-6 lg:mx-0">
-            I&apos;m <strong className="text-slate-800">Abdul Musawir</strong> — a full-stack developer with 2.5+ years of experience building reliable web products for startups, businesses, and growing teams.
+            I&apos;m <strong className="text-slate-800">Abdul Musawir</strong> — a full-stack developer with 1.5+ years of experience building reliable web products for startups, businesses, and growing teams.
           </p>
 
           {/* CTAs */}
