@@ -1,19 +1,19 @@
 export default function About() {
   const highlights = [
     {
-      label: '5+',
-      title: 'Projects Shipped',
-      description: 'SaaS platforms, marketplaces, booking systems, and dashboards — from MVP to production.',
+      label: '2.5+',
+      title: 'Years of Experience',
+      description: 'Hands-on work building production-ready web products with a strong focus on execution and quality.',
     },
     {
       label: '∞',
       title: 'Full-Stack Coverage',
-      description: 'React & Next.js on the frontend. Node.js, Express, and PostgreSQL/MongoDB on the backend.',
+      description: 'React and Next.js on the frontend, Node.js and Express on the backend, and PostgreSQL, MongoDB, or Supabase for data.',
     },
     {
       label: '✓',
       title: 'Open to Work',
-      description: 'Available for full-time software engineering roles and freelance contracts — remote worldwide.',
+      description: 'Available for full-time roles, freelance projects, and remote collaboration worldwide.',
     },
   ]
 
@@ -36,10 +36,10 @@ export default function About() {
       <div className="grid gap-8 sm:gap-9 lg:grid-cols-[1.1fr_.9fr] lg:gap-20">
         <div className="text-base leading-relaxed text-slate-600">
           <p>
-            I&apos;m a full-stack developer with hands-on experience building SaaS platforms, client-facing web applications, and internal dashboards from the ground up. I work across the full stack — React and Next.js on the frontend, Node.js and Express on the backend, and PostgreSQL, MongoDB, or Supabase for data.
+            I&apos;m a full-stack developer with 2.5+ years of experience building SaaS platforms, client-facing web applications, and internal dashboards from the ground up. I combine strong frontend execution with reliable backend architecture to deliver products that feel polished and perform well.
           </p>
           <p className="mt-4 sm:mt-5">
-            I care deeply about performance, clean architecture, and user experience. Whether you&apos;re a startup that needs an MVP, a business looking to modernise its web presence, or a team that needs a reliable extra developer — I deliver working software on time, with clear communication throughout.
+            I care deeply about performance, clean architecture, and user experience. Whether you need an MVP, a modern web presence, or a dependable developer to support your team, I focus on shipping practical solutions with clear communication and thoughtful execution.
           </p>
           <a
             className="mt-6 sm:mt-7 inline-flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-sm font-extrabold text-white shadow-md shadow-blue-500/25 hover:bg-blue-700 transition-colors"

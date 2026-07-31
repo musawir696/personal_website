@@ -46,7 +46,7 @@ export default function Hero() {
 
           {/* Subtitle — clear identity statement */}
           <p className="mt-6 sm:mt-7 max-w-lg mx-auto lg:mx-0 text-base leading-relaxed text-slate-600 sm:text-lg">
-            I&apos;m <strong className="text-slate-800">Abdul Musawir</strong> — a full-stack developer specialising in React, Next.js, and Node.js. I build fast, reliable web applications for startups, product teams, and growing businesses.
+            I&apos;m <strong className="text-slate-800">Abdul Musawir</strong> — a full-stack developer with 2.5+ years of experience building SaaS products, modern web apps, and internal tools for startups and growing teams.
           </p>
 
           {/* CTAs */}
