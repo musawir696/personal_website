@@ -5,21 +5,21 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="bg-linear-to-br from-blue-50 to-violet-50 px-5 py-16 sm:px-10 sm:py-20 lg:px-[max(2rem,calc((100vw-1320px)/2))] lg:py-28"
+      className="bg-linear-to-br from-blue-50 to-violet-50 px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28"
     >
       <header className="mx-auto mb-10 sm:mb-14 max-w-3xl text-center">
         <p className="mb-3 sm:mb-4 text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-violet-600">
           PROJECTS
         </p>
         <h2 className="text-3xl leading-tight font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">
-          Built for clients,
+          Built to prove
           <br />
           <span className="bg-linear-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
-            interviews, and product launches.
+            real product impact.
           </span>
         </h2>
         <p className="mt-4 sm:mt-5 text-sm sm:text-[15px] leading-relaxed text-slate-500 max-w-xl mx-auto">
-          These case studies show polished UI, clear business value, and backend systems designed for growth and trust.
+          These projects reflect the kind of work I deliver for hiring teams and freelance clients: thoughtful UI, reliable engineering, and solutions built to scale.
         </p>
       </header>
 

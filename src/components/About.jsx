@@ -20,7 +20,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-white px-5 py-16 sm:px-10 sm:py-20 lg:px-[max(3rem,calc((100vw-1120px)/2))] lg:py-28"
+      className="bg-white px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28"
     >
       <div className="mx-auto mb-10 sm:mb-14 max-w-3xl text-center">
         <p className="mb-3 sm:mb-4 text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-blue-600">
@@ -29,14 +29,14 @@ export default function About() {
         <h2 className="text-3xl leading-tight font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">
           More than code.
           <br />
-          <span className="text-violet-600">A developer who ships.</span>
+          <span className="text-violet-600">A developer who delivers.</span>
         </h2>
       </div>
 
       <div className="grid gap-8 sm:gap-9 lg:grid-cols-[1.1fr_.9fr] lg:gap-20">
-        <div className="text-base leading-relaxed text-slate-600">
+        <div className="px-1 text-base leading-relaxed text-slate-600 sm:px-2 lg:px-4">
           <p>
-            I&apos;m a full-stack developer with 2.5+ years of experience building SaaS platforms, client-facing web applications, and internal dashboards from the ground up. I combine strong frontend execution with reliable backend architecture to deliver products that feel polished and perform well.
+            I&apos;m a full-stack developer with 2.5+ years of experience building SaaS platforms, client-facing web applications, and internal dashboards from the ground up. I combine strong frontend execution with reliable backend architecture to create products that feel polished, fast, and dependable.
           </p>
           <p className="mt-4 sm:mt-5">
             I care deeply about performance, clean architecture, and user experience. Whether you need an MVP, a modern web presence, or a dependable developer to support your team, I focus on shipping practical solutions with clear communication and thoughtful execution.
@@ -49,7 +49,7 @@ export default function About() {
           </a>
         </div>
 
-        <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-3 lg:grid-cols-1">
+        <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1">
           {highlights.map(({ label, title, description }) => (
             <div
               className="rounded-2xl border border-slate-100 bg-slate-50 p-5 sm:p-6 transition hover:border-blue-100 hover:bg-blue-50/30"

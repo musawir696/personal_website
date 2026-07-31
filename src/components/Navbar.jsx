@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-3 left-1/2 z-50 flex h-14 sm:h-16 w-[calc(100%-1rem)] sm:w-[calc(100%-1.5rem)] max-w-5xl -translate-x-1/2 items-center justify-between rounded-full border border-white/80 px-4 sm:px-5 transition-all duration-300 ${
+        className={`fixed top-3 left-1/2 z-50 flex h-14 sm:h-16 w-[calc(100%-0.75rem)] sm:w-[calc(100%-1.5rem)] max-w-5xl -translate-x-1/2 items-center justify-between rounded-full border border-white/80 px-3 sm:px-5 transition-all duration-300 ${
           scrolled
             ? 'bg-white/95 shadow-xl shadow-slate-900/12 backdrop-blur-xl'
             : 'bg-white/80 shadow-lg shadow-slate-900/10 backdrop-blur-xl'
@@ -88,13 +88,7 @@ export default function Navbar() {
           >
             Skills
           </a>
-          <a
-            className="rounded-xl px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
-            href="#experience"
-            onClick={closeMenu}
-          >
-            Experience
-          </a>
+          
           <a
             className="rounded-xl px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
             href="#services"

@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="bg-linear-to-br from-blue-50 to-violet-50 px-5 py-16 sm:px-10 sm:py-20 lg:px-[max(3rem,calc((100vw-1120px)/2))] lg:py-28"
+      className="bg-linear-to-br from-blue-50 to-violet-50 px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28"
     >
       {/* Header */}
       <header className="mx-auto mb-10 sm:mb-14 max-w-3xl text-center">
@@ -12,14 +12,14 @@ export default function Services() {
           SERVICES
         </p>
         <h2 className="text-3xl leading-tight font-extrabold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">
-          What I can
+          Services designed
           <br />
           <span className="bg-linear-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
-            build for you.
+            for growth and clarity.
           </span>
         </h2>
         <p className="mt-4 sm:mt-5 text-sm sm:text-[15px] leading-relaxed text-slate-500 max-w-xl mx-auto">
-          I combine strategy, design thinking, and engineering to take your idea from concept to launch.
+          I combine thoughtful product strategy, polished UI, and reliable engineering to turn ideas into high-quality digital experiences.
         </p>
       </header>
 
@@ -27,7 +27,7 @@ export default function Services() {
       <div className="grid gap-5 sm:gap-6 sm:grid-cols-2 md:grid-cols-3">
         {services.map((service) => (
           <article
-            className="group relative min-h-[360px] sm:min-h-[400px] lg:min-h-[420px] overflow-hidden rounded-[20px] sm:rounded-[24px] border border-slate-200/50 shadow-xl shadow-slate-900/10 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl"
+            className="group relative min-h-[300px] sm:min-h-[340px] lg:min-h-[380px] overflow-hidden rounded-[20px] sm:rounded-[24px] border border-slate-200/50 shadow-xl shadow-slate-900/10 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl"
             key={service.title}
           >
             {/* Full-width AI image */}

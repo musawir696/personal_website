@@ -30,7 +30,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="bg-gradient-to-br from-slate-50 via-sky-50 to-blue-50 px-5 py-16 sm:px-10 sm:py-20 lg:px-[max(3rem,calc((100vw-1120px)/2))] lg:py-28"
+      className="bg-gradient-to-br from-slate-50 via-sky-50 to-blue-50 px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28"
     >
       <div className="mx-auto mb-10 max-w-3xl text-center">
         <p className="mb-3 text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-blue-600">

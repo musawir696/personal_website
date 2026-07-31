@@ -19,7 +19,7 @@ export default function Footer() {
       ),
     },
     {
-      label: 'Connect on LinkedIn',
+      label: 'LinkedIn',
       href: 'https://www.linkedin.com/in/abdul-musawir-11027a247?utm_source=share_via&utm_content=profile&utm_medium=member_android',
       icon: (
         <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -32,32 +32,32 @@ export default function Footer() {
   return (
     <footer
       id="contact"
-      className="bg-slate-950 px-5 py-16 sm:px-10 sm:py-24 lg:py-32"
+      className="bg-slate-950 px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20"
     >
       <div className="mx-auto max-w-3xl text-center">
 
         {/* Label */}
-        <p className="mb-3 sm:mb-4 text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-blue-400">
+        <p className="mb-2 sm:mb-3 text-base sm:text-lg font-extrabold tracking-[0.15em] uppercase text-blue-400">
           GET IN TOUCH
         </p>
 
         {/* Headline */}
-        <h2 className="text-3xl leading-tight font-extrabold tracking-tighter text-white sm:text-5xl lg:text-6xl">
-          Ready to build
+        <h2 className="text-2xl leading-tight font-extrabold tracking-tighter text-white sm:text-4xl lg:text-5xl">
+          Let&apos;s build
           <br />
           <span className="bg-linear-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">
-            something great?
+            something meaningful.
           </span>
         </h2>
 
         {/* Subline */}
-        <p className="mt-5 sm:mt-6 text-base leading-relaxed text-slate-400 max-w-lg mx-auto">
-          I&apos;m open to <strong className="text-slate-200">full-time software engineering roles</strong> and <strong className="text-slate-200">freelance contracts</strong>. Based in Pakistan — available remotely, worldwide.
+        <p className="mx-auto mt-4 max-w-lg text-sm leading-relaxed text-slate-400 sm:mt-5 sm:text-base">
+          I&apos;m available for <strong className="text-slate-200">full-time opportunities</strong>, <strong className="text-slate-200">freelance projects</strong>, and remote collaboration worldwide.
         </p>
 
         {/* Primary CTA */}
         <a
-          className="mt-8 sm:mt-10 inline-flex items-center gap-3 rounded-xl bg-blue-600 px-6 py-4 text-base font-extrabold text-white shadow-xl shadow-blue-500/25 transition hover:scale-105 hover:bg-blue-500"
+          className="mt-6 inline-flex items-center justify-center gap-3 rounded-xl bg-blue-600 px-5 py-3.5 text-sm font-extrabold text-white shadow-xl shadow-blue-500/25 transition hover:scale-105 hover:bg-blue-500 sm:mt-8 sm:px-6 sm:py-4 sm:text-base"
           href="mailto:abdulmusawir3545@gmail.com"
         >
           <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
@@ -67,7 +67,7 @@ export default function Footer() {
         </a>
 
         {/* Secondary links */}
-        <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+        <div className="mt-6 flex flex-col flex-wrap items-center justify-center gap-3 sm:mt-8 sm:flex-row sm:gap-5">
           {contactLinks.map(({ label, href, icon }) => (
             <a
               key={label}
@@ -82,14 +82,7 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Divider */}
-        <div className="mt-12 sm:mt-16 border-t border-slate-800 pt-8 sm:pt-10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600">
-          <p>© {new Date().getFullYear()} Abdul Musawir. All rights reserved.</p>
-          <p className="flex items-center gap-1.5">
-            <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
-            Available for remote work worldwide
-          </p>
-        </div>
+       
       </div>
     </footer>
   )
